@@ -1,0 +1,119 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #1e1e1e 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+header li {
+    display: inline;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+header h1 {
+    float: left;
+    display: inline;
+    padding: 10px;
+}
+
+/* Hero Section */
+#hero {
+    background: #333;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+#hero p {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+#hero .btn {
+    text-decoration: none;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 1.2em;
+}
+
+/* Features Section */
+#features {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.feature-item {
+    margin-bottom: 30px;
+}
+
+.feature-item img {
+    width: 80px;
+    height: 80px;
+}
+
+.feature-item h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.feature-item p {
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
