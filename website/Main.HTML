@@ -1,35 +1,108 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メインメニュー</title>
     <style>
         body {
-            /* 線形グラデーション */
-            background: linear-gradient(to bottom right,#a6beff, #a6beff);
-            /* 背景全体に広がるようにする */
-            height: 100vh;
-            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #70a1ff, #8a90ff);
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: Arial, sans-serif;
-            color: white;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .form-group1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        
+        input[type="text"], input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .btn1 {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+        }
+        
+        .btn1:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .btn2 {
+            margin-bottom: 20px;
+            text-align: right;
         }
     </style>
-	<head>
-    	<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<title>時間割作成サイト</title>
-    	<link rel="stylesheet" href="styles.css">
-	</head>
-	<body>
-        <div class="container">
-            <h1>メインメニュー</h1>
-            <nav>
-                <ul>
-                    <li><a href="file:///C:/Users/210431/Desktop/website/FileInput.HTML">ファイル入力</a></li>
-                    <li><a href="file:///C:/Users/210431/Desktop/website/FileEdit.HTML">ファイル編集</a></li>
-                    <li><a href="#home">ファイル削除</a></li>
-                    <li><a href="#home">時間割作成する</a></li>
-                </ul>
-        </div>
-	</body>
+</head>
+<body>
+    <div class="container">
+        <h2>メインメニュー</h2>
+            <div class="form-group1">
+                <a href="C:\Users\210832\Desktop\website\FileInput.HTML">
+                <label for="username">ファイル入力</label>
+                </a>
+            </div>
+            <div class="form-group1">
+                <a href="C:\Users\210832\Desktop\website\FileEdit.HTML">
+                <label for="username">ファイル編集</label>
+                </a>
+            </div>
+            <div class="form-group1">
+                <a href="C:\Users\210832\Desktop\website\FileDelete.HTML">
+                <label for="username">ファイル削除</label>
+                </a>
+            </div>
+            <div class="form-group1">
+                <a href="https://ドメイン名/">
+                <label for="username">ファイル出力</label>
+                </a>
+            </div>
+            <a href="C:\Users\210832\Desktop\website\InitialScreen.HTML">
+                <button type="submit" class="btn2">ログアウト</button>
+            </a>
+            
+
+    </div>
+</body>
 </html>
